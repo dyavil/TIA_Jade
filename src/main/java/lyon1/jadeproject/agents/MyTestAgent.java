@@ -11,6 +11,9 @@ import jade.core.Agent;
  *
  * @author dyavil
  */
-public class TestAgent extends Agent {
-    
+public class MyTestAgent extends Agent {
+    @Override
+    protected void setup(){
+        System.err.println("setup !!!!");
+    }
 }
